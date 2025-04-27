@@ -1,0 +1,35 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    color: #373a3c;
+    background-color: #fff;
+}
+
+/* Titulares principales */
+h1 {
+    font-family: 'cabin', bold;
+    color: #000;
+}
+
+/* Botones */
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+/* Espaciados */
+section {
+    padding: 40px 0;
+}
+
+/* Imagen principal */
+.img-principal {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding-top: 88px;
+}
+
+/* Cards */
+.card-title {
+    cursor: pointer;
+}
