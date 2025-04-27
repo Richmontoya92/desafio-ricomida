@@ -1,35 +1,129 @@
 body {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Cabin', sans-serif; 
     color: #373a3c;
     background-color: #fff;
 }
 
-/* Titulares principales */
 h1 {
-    font-family: 'cabin', bold;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold; 
     color: #000;
 }
 
-/* Botones */
-.btn-danger {
-    background-color: #dc3545;
-    border: none;
+.carousel-item img {
+    padding-top: 30px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%; 
+    border: 2px solid #373A3C; 
+    background-color: transparent; 
+    opacity: 1; 
+}
+.carousel-indicators .active {
+    background-color: #373A3C; 
+}
+.carousel-indicators {
+    bottom: -60px; 
 }
 
-/* Espaciados */
-section {
-    padding: 40px 0;
+
+.cabin-regular {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400; 
 }
 
-/* Imagen principal */
+
 .img-principal {
     width: 100%;
     height: auto;
     object-fit: cover;
     padding-top: 88px;
 }
-
-/* Cards */
-.card-title {
-    cursor: pointer;
+#carouselExample {
+    width: 100%; 
+    max-width: 2500px; 
+  }
+  .carousel-item img {
+    max-width: 300px; 
+  }
+  
+@media (max-width: 768px) {
+    .row-cols-1.row-cols-lg-3 {
+        gap: 20px; 
+    }
 }
+
+#jobs h1 {
+    margin-top: 10px; 
+    margin-bottom: 40px; 
+}
+
+.card {
+    max-width: 80%; 
+    margin: 0 auto; 
+}
+
+@media (max-width: 768px) {
+    .card {
+    max-width: 80%; 
+    }
+
+.card-img-top {
+    max-height: 250px; 
+    object-fit: cover; 
+}
+}
+.btn-transparente {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+#suscri {
+    background-color: #DC3545; /* Fondo claro */
+    padding: 50px 20px; /* Relleno para la sección */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 30px 0; /* Márgenes */
+    text-align: center;
+}
+
+/* Estilo para los encabezados */
+#suscri h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 2.5rem; 
+    color: #ffffff; 
+    margin-bottom: 10px; 
+}
+
+#suscri h5 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.25rem; 
+    color: #ffffff; 
+    margin-bottom: 20px; 
+}
+
+/* Estilo para el botón */
+.btn-transparente {
+    background-color: transparent;
+    border: 1px solid #ffffff; 
+    color: #ffffff; 
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 5px; 
+}
+
+.btn-transparente:hover {
+    background-color: #007bff;
+    color: white;
+    border-color: #0056b3; 
+}
+
+#ricomida{
+    font-family: 'lobster', ;
+    font-weight: 400; 
+}
+
