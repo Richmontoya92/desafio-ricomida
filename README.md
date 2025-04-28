@@ -93,3 +93,5 @@ En grupos de **dos personas** se deben resolver los siguientes requerimientos:
 - `#000` o `var(--black)`
 - `#fff` o `var(--white)`
 - `#dc3545` o `var(--danger)`
+
+## Trabajo revisado y terminado por Richard Montoya @Richmontoya92
