@@ -84,14 +84,11 @@ h1 {
 }
 
 #suscri {
-    background-color: #DC3545; /* Fondo claro */
-    padding: 50px 20px; /* Relleno para la sección */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    margin: 30px 0; /* Márgenes */
+    background-color: #DC3545; 
+    padding: 50px 20px; 
     text-align: center;
 }
 
-/* Estilo para los encabezados */
 #suscri h1 {
     font-family: 'Cabin', sans-serif;
     font-size: 2.5rem; 
@@ -117,9 +114,9 @@ h1 {
 }
 
 .btn-transparente:hover {
-    background-color: #007bff;
+    background-color: #ffd900;
     color: white;
-    border-color: #0056b3; 
+    border-color: #ffffff; 
 }
 
 #ricomida{
@@ -127,3 +124,12 @@ h1 {
     font-weight: 400; 
 }
 
+#contact{
+    background-color: #373A3C;
+    text-align: center;
+    padding: 20px 20px;
+}
+#rico{
+    color: #ffffff;
+    font-family: 'lobster', ;
+}
